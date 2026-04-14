@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: History PhD Student at UT Austin
+subtitle: History PhD Student at <a href="https://liberalarts.utexas.edu/history/">The University of Texas at Austin</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: True # crops the image to make it circular
   more_info: >
     <p>benarmus@utexas.edu</p>
     <p>The University of Texas at Austin</p>

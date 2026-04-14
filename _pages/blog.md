@@ -2,7 +2,6 @@
 layout: default
 permalink: /blog/
 title: blog
-external_url: https://substack.com/@thequodlibet
 nav: true
 nav_order: 1
 pagination:
