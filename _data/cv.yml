@@ -5,7 +5,7 @@ cv:
   social_networks:
     - network: LinkedIn
       username: benarmus
-
+      
   sections:
     Education:
       - institution: The University of Texas at Austin
@@ -50,19 +50,21 @@ cv:
         authors:
           - "***Benjamin Armus***"
         journal: Gale Research Showcase
-        date: "Forthcoming 2026"
+        date: "2026"
 
       - title: "Crown and Gown: The Death of Religious Disputations at Oxford and Cambridge"
         authors:
           - "***Benjamin Armus***"
         journal: Charles James Fox Society Magazine
         summary: "Volume 1, pp. 23-38."
+        date: "2025"
 
       - title: "'Le Temps Passé n'est Plus:' Transcending the Past and Temporalizing the French Revolution"
         authors:
           - "***Benjamin Armus***"
         journal: James Blair Historical Review
         summary: "Volume 14, pp. 8-23."
+        date: "2024"
 
     Activities:
       - bullet: "Co-Editor in Chief of the *James Blair Historical Review* 2025-26"

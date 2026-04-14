@@ -120,6 +120,18 @@ layout: default
           </div>
         {% endif %}
 
+        <!-- Education (before Experience) -->
+        {% if cv.sections.Education.size > 0 %}
+          <a class="anchor" id="education"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Education</h3>
+            <div>
+              {% assign entries = cv.sections.Education %}
+              {% include cv/education.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
         <!-- RenderCV Sections - Merge Experience and Volunteer -->
         {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
         {% assign empty_array = '' | split: ',' %}
@@ -137,13 +149,13 @@ layout: default
           </div>
         {% endif %}
 
-        {% comment %} Now render all other sections except Experience and Volunteer {% endcomment %}
+        {% comment %} Now render all other sections except Education, Experience and Volunteer {% endcomment %}
         {% for section_pair in cv.sections %}
           {% assign section_title = section_pair[0] %}
           {% assign section_entries = section_pair[1] %}
 
-          {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
-          {% if section_title == 'Experience' or section_title == 'Volunteer' %}
+          {% comment %} Skip Education, Experience and Volunteer as we've already processed them {% endcomment %}
+          {% if section_title == 'Education' or section_title == 'Experience' or section_title == 'Volunteer' %}
             {% continue %}
           {% endif %}
 
