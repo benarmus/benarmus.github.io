@@ -479,11 +479,25 @@ ninja.data = [{
           window.open("mailto:%62%65%6E%61%72%6D%75%73@%75%74%65%78%61%73.%65%64%75", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-substack',
+        title: 'Substack',
         section: 'Socials',
         handler: () => {
           window.open("https://substack.com/@thequodlibet", "_blank");
+        },
+      },{
+        id: 'social-goodreads',
+        title: 'Goodreads',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.goodreads.com/user/show/110009745-benjamin-armus", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/benjamin-armus", "_blank");
         },
       },{
       id: 'light-theme',
