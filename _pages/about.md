@@ -10,7 +10,6 @@ profile:
   image_circular: False # crops the image to make it circular
   more_info: >
     <p>benarmus@utexas.edu</p>
-    <p>The University of Texas at Austin</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
