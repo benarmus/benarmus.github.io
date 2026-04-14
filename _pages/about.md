@@ -32,4 +32,4 @@ My undergraduate thesis "Epistemic Authority and the Academic Disputation in Ear
 
 More broadly, I am interested in how institutions shape the production and validation of knowledge. My work sits at the intersection of intellectual history, the history of science, and institutional history, and I am drawn to questions about the relationship between pedagogical practice and epistemological change in early modern Europe. I am also interested applying digital methods to my work. 
 
-My favorite painting is [The Creation of the World and the Expulsion from Paradise](https://www.metmuseum.org/art/collection/search/458971) by Giovanni di Paolo. 
+My favorite painting is [The Creation of the World and the Expulsion from Paradise](https://www.metmuseum.org/art/collection/search/458971) by Giovanni di Paolo!
