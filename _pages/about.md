@@ -29,7 +29,4 @@ Hi! I'm Ben, an incoming PhD student at the University of Texas at Austin. I stu
 
 My undergraduate thesis "Epistemic Authority and the Academic Disputation in Early Modern England" examines the decline of the academic disputation at Oxford and Cambridge in early modern England. I argue that the disputation gradually lost its pedagogical and epistemic authority as it was instrumentalized by the state and religious reformers, and attacked by intellectuals. 
 
-More broadly, I am interested in how institutions shape the production and validation of knowledge. My work sits at the intersection of intellectual history, the history of science, and institutional history, and I am drawn to questions about the relationship between pedagogical practice and epistemological change in early modern Europe. I am also interested applying digital methods to my work. 
-
-My favorite painting is [The Creation of the World and the Expulsion from Paradise](https://www.metmuseum.org/art/collection/search/458971)
-by Giovanni di Paolo!
+More broadly, I am interested in how institutions shape the production and validation of knowledge. My work sits at the intersection of intellectual history, the history of science, and institutional history, and I am drawn to questions about the relationship between pedagogical practice and epistemological change in early modern Europe. I am also interested applying digital methods to my work. My favorite painting is [The Creation of the World and the Expulsion from Paradise](https://www.metmuseum.org/art/collection/search/458971)by Giovanni di Paolo!
