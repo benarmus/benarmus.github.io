@@ -17,5 +17,7 @@ goodreads: # can be any name here other than the ones already defined in the jek
   title: Goodreads
   url: https://www.goodreads.com/user/show/110009745-benjamin-armus
 
-linkedin_username: benjamin-armus
-
+goodreads: # can be any name here other than the ones already defined in the jekyll-socials plugin
+  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/500px-LinkedIn_logo_initials.png # can be png, svg, jpg
+  title: LinkedIn
+  url: https://www.linkedin.com/in/benjamin-armus/
