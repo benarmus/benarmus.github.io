@@ -24,7 +24,7 @@ cv:
         highlights:
           - "GPA: 3.83/4.0"
           - Phi Beta Kappa, Phi Alpha Theta (History Honors), Alpha Delta Gamma (Medieval and Renaissance Studies Honors)
-          - Studied at Hertford College, University of Oxford, Jan. 2025 - Jun. 2025, tutorials in medieval and early modern history
+          - Studied at Hertford College, University of Oxford, Jan. 2025 - Jun. 2025
 
     Experience:
       - company: Gale Academic
@@ -67,13 +67,11 @@ cv:
 
     Activities:
       - bullet: "Co-Editor in Chief of the *James Blair Historical Review* 2025-26"
-      - bullet: "Managing Editor of the *James Blair Historical Review* 2025-26"
       - bullet: "President of the William & Mary History Club 2024-26"
-      - bullet: "Vice President of the William & Mary History Club 2023-24"
 
     Skills:
       - label: Languages
-        details: French (advanced speaking and reading proficiency), Latin (intermediate reading proficiency)
+        details: French (advanced speaking and reading proficiency), Latin (basic reading proficiency)
       - label: Paleography
         details: Basic proficiency in reading early modern English handwriting (secretary hand)
       - label: Digital Humanities
