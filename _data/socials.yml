@@ -8,7 +8,14 @@ email: benarmus@utexas.edu # your email address
 # scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+substack: # can be any name here other than the ones already defined in the jekyll-socials plugin
   logo: https://upload.wikimedia.org/wikipedia/commons/c/c8/Substack.png # can be png, svg, jpg
   title: Substack
   url: https://substack.com/@thequodlibet
+goodreads: # can be any name here other than the ones already defined in the jekyll-socials plugin
+  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Goodreads_favicon_2025.svg/250px-Goodreads_favicon_2025.svg.png # can be png, svg, jpg
+  title: Goodreads
+  url: https://www.goodreads.com/user/show/110009745-benjamin-armus
+
+linkedin_username: benjamin-armus
+
