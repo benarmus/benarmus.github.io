@@ -8,7 +8,7 @@ cv:
       username: benarmus
 
   sections:
-    education:
+    Education:
       - institution: The University of Texas at Austin
         area: History
         degree: PhD
@@ -31,7 +31,7 @@ cv:
         degree: Introductory Intensive Latin
         date: Summer 2025
 
-    relevant work experience:
+    Experience:
       - company: Gale Academic
         position: Digital Humanities Intern
         start_date: 2025-08
@@ -51,7 +51,7 @@ cv:
           - Peer leader for ~20-30 first-year students in Nicholson Hall, Spotswood Hall, and Gooch Hall.
           - Managed bonding events and enforced University policy, mentored new Resident Assistants.
 
-    publications:
+    Publications:
       - title: "The Transformation of University Pedagogy in Eighteenth Century England"
         authors:
           - "***Benjamin Armus***"
