@@ -30,7 +30,7 @@ pagination:
   {% endif %}
 
   <p style="text-align: center; margin-bottom: 1.5rem;">
-    Read and subscribe on <a href="https://thequodlibet.substack.com" target="_blank" rel="noopener noreferrer">Substack</a>.
+    Read and subscribe on <a href="https://substack.com/@quotlibet" target="_blank" rel="noopener noreferrer">Substack</a>.
   </p>
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}

@@ -129,7 +129,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # Optional: Set default categories and tags for posts from each source.
 external_sources:
   - name: Quodlibet
-    rss_url: https://thequodlibet.substack.com/feed
+    rss_url: https://quotlibet.substack.com/feed
 
 # -----------------------------------------------------------------------------
 # Newsletter
