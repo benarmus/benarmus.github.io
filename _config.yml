@@ -128,8 +128,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
 external_sources:
-  - name: Quodlibet
-    rss_url: https://quotlibet.substack.com/feed
 
 # -----------------------------------------------------------------------------
 # Newsletter
