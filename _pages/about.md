@@ -24,8 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Ben, an incoming PhD student at the University of Texas at Austin. I study the history of early modern European universities, with a focus on Britain and its empire. I currently study as an undergraduate at the College of William & Mary, where I will earn a B.A. in History and French.
+Hi! I'm Ben, a PhD student at the University of Texas at Austin. I study the history of scholarship and science in early modern Europe, with a focus on Britain and its empire. 
 
 My undergraduate thesis "Epistemic Authority and the Academic Disputation in Early Modern England" examines the decline of the academic disputation at Oxford and Cambridge in early modern England. I argue that the disputation gradually lost its pedagogical and epistemic authority as it was instrumentalized by the state and religious reformers, and attacked by intellectuals. 
 
-More broadly, I am interested in how institutions shape the production and validation of knowledge. My work sits at the intersection of intellectual history, the history of science, and institutional history, and I am drawn to questions about historical epistemology. I am also interested in applying digital methods to my resarch. My favorite painting is [The Creation of the World and the Expulsion from Paradise](https://www.metmuseum.org/art/collection/search/458971) by Giovanni di Paolo!
+I am broadly interested in how institutions shape the production and validation of knowledge. I am also interested in applying digital methods to my resarch. My favorite painting is [The Creation of the World and the Expulsion from Paradise](https://www.metmuseum.org/art/collection/search/458971) by Giovanni di Paolo!
