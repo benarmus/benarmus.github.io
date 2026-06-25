@@ -21,7 +21,6 @@ cv:
         end_date: 2026-05
         location: Williamsburg, VA
         highlights:
-          - "GPA: 3.83/4.0"
           - Phi Beta Kappa, Phi Alpha Theta (History Honors), Alpha Delta Gamma (Medieval and Renaissance Studies Honors)
           - Studied at Hertford College, University of Oxford, Jan. 2025 - Jun. 2025
 
@@ -34,16 +33,7 @@ cv:
         highlights:
           - Wrote a digital humanities research article using the Gale Digital Scholar Lab for the Gale Research Showcase.
           - Created blog and social media content highlighting archival materials.
-          - Organized an on-campus event promoting Gale resources, and engaged in professional development through weekly skill-building sessions.
-
-      - company: William & Mary Residence Life
-        position: Resident Assistant
-        start_date: 2023-08
-        end_date: present
-        location: Williamsburg, VA
-        highlights:
-          - Peer leader for ~20-30 first-year students in Nicholson Hall, Spotswood Hall, and Gooch Hall.
-          - Managed bonding events and enforced University policy, mentored new Resident Assistants.
+          - Organized an on-campus event promoting Gale resources and engaged in professional development through weekly skill-building sessions.
 
     Publications:
       - title: "The Transformation of University Pedagogy in Eighteenth Century England"
@@ -67,12 +57,12 @@ cv:
         date: "2024"
 
     Activities:
-      - bullet: "Co-Editor in Chief of the *James Blair Historical Review* 2025-26"
+      - bullet: "Managing Editor of the *James Blair Historical Review* 2025-26"
       - bullet: "President of the William & Mary History Club 2024-26"
 
     Skills:
       - label: Languages
-        details: French (advanced speaking and reading proficiency), Latin (basic reading proficiency)
+        details: French, Latin
       - label: Paleography
         details: Basic proficiency in reading early modern English handwriting (secretary hand)
       - label: Digital Humanities
