@@ -106,10 +106,7 @@
       "name": "Languages",
       "level": "",
       "icon": "fa-solid fa-language",
-      "keywords": [
-        "French (advanced speaking and reading proficiency)",
-        "Latin (reading proficiency)"
-      ]
+      "keywords": ["French", "Latin"]
     },
     {
       "name": "Paleography",
@@ -129,23 +126,7 @@
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "French",
-      "fluency": "Advanced speaking and reading proficiency",
-      "icon": ""
-    },
-    {
-      "language": "Latin",
-      "fluency": "Reading Proficiency",
-      "icon": ""
-    }
-  ],
+  "languages": [],
   "interests": [
     {
       "name": "Early Modern History",
