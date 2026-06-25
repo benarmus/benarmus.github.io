@@ -30,15 +30,6 @@
       "endDate": "",
       "summary": "Wrote a digital humanities research article using the Gale Digital Scholar Lab for the Gale Research Showcase. Created blog and social media content highlighting archival materials. Organized an on-campus event promoting Gale resources and engaged in professional development through weekly skill-building sessions.",
       "highlights": []
-    },
-    {
-      "name": "William & Mary Residence Life",
-      "position": "Resident Assistant",
-      "location": "Williamsburg, VA",
-      "startDate": "2023-08-01",
-      "endDate": "",
-      "summary": "Peer leader for approximately 20-30 first-year students in Nicholson Hall, Spotswood Hall, and Gooch Hall. Managed bonding events, enforced University policy, and mentored new Resident Assistants.",
-      "highlights": []
     }
   ],
   "volunteer": [],
@@ -63,7 +54,7 @@
       "studyType": "B.A.",
       "startDate": "2022-08-01",
       "endDate": "2026-05-01",
-      "score": "3.83/4.0",
+      "score": "",
       "courses": [],
       "highlights": [
         "Phi Beta Kappa",
@@ -117,7 +108,7 @@
       "icon": "fa-solid fa-language",
       "keywords": [
         "French (advanced speaking and reading proficiency)",
-        "Latin (intermediate reading proficiency)"
+        "Latin (reading proficiency)"
       ]
     },
     {
@@ -151,7 +142,7 @@
     },
     {
       "language": "Latin",
-      "fluency": "Intermediate reading proficiency",
+      "fluency": "Reading Proficiency",
       "icon": ""
     }
   ],
@@ -173,7 +164,7 @@
   "activities": [
     {
       "name": "James Blair Historical Review",
-      "position": "Co-Editor in Chief; Managing Editor",
+      "position": "Managing Editor",
       "startDate": "2025-01-01",
       "endDate": "2026-05-01",
       "summary": ""
