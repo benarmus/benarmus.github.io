@@ -4,6 +4,10 @@
 
 @use "variables" as v;
 
+body {
+  font-family: "Source Serif 4", Georgia, serif;
+}
+
 p,
 h1,
 h2,
@@ -17,6 +21,28 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Serif 4", Georgia, serif;
+}
+
+.navbar,
+.nav-item,
+footer,
+.social,
+.contact-note,
+.description,
+.card-title,
+.card-text,
+code,
+pre {
+  font-family: "Roboto", sans-serif;
 }
 
 hr {
