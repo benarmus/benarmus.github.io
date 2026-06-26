@@ -1,6 +1,9 @@
 cv_pdf: /assets/pdf/UptoDateCV.pdf
 email: benarmus@utexas.edu
-linkedin: benjamin-armus
+linkedin:
+  logo: /assets/img/linkedin.svg
+  title: LinkedIn
+  url: https://www.linkedin.com/in/benjamin-armus/
 substack:
   logo: /assets/img/substack.svg
   title: Substack
