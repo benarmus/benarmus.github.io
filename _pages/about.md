@@ -13,7 +13,7 @@ profile:
   image_circular: False # crops the image to make it circular
   more_info: >
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -31,10 +31,4 @@ Hi! I'm Ben, a PhD student at the University of Texas at Austin. I study early m
 
 My recent writing examines the decline of the academic disputation at Oxford and Cambridge in early modern England. I argue that the disputation gradually lost its pedagogical and epistemic authority as it was instrumentalized by the state and religious reformers, and attacked by intellectuals.
 
-My favorite painting is Giovanni di Paolo's <em>The Creation of the World and the Expulsion from Paradise</em> (c. 1445), held at the Metropolitan Museum of Art.
-
-<div class="row mt-3">
-  <div class="col-sm-6 mx-auto">
-    {% include figure.liquid path="assets/img/giovanni_di_paolo.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Giovanni di Paolo, The Creation of the World and the Expulsion from Paradise, c. 1445" caption="Giovanni di Paolo, <em>The Creation of the World and the Expulsion from Paradise</em>, c. 1445. The Metropolitan Museum of Art, Robert Lehman Collection (CC0)." %}
-  </div>
-</div>
+My favorite painting is [The Creation of the World and the Expulsion from Paradise](https://www.metmuseum.org/art/collection/search/458971) by Giovanni di Paolo!
