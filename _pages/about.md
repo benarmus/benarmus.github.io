@@ -27,9 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-
 Hi! I'm Ben, a PhD student at the University of Texas at Austin. I study early modern England, with interests in intellectual history, institutional history, and the history of science. My research centers on epistemology: how early modern people decided what counted as knowledge, who was authorized to produce it, and through which procedures truth was adjudicated.
 
-My past writing examines the decline of the academic disputation at Oxford and Cambridge in early modern England. I argue that the disputation gradually lost its pedagogical and epistemic authority as it was instrumentalized by the state and religious reformers, and attacked by intellectuals. Recently, I have been interested in the emergence of probabalistic thinking and inductive reasoning. 
+My past writing examines the decline of the academic disputation at Oxford and Cambridge in early modern England. I argue that the disputation gradually lost its pedagogical and epistemic authority as it was instrumentalized by the state and religious reformers, and attacked by intellectuals. Recently, I have been interested in the emergence of probabilistic thinking and inductive reasoning. 
 
 My favorite painting is [The Creation of the World and the Expulsion from Paradise](https://www.metmuseum.org/art/collection/search/458971) by Giovanni di Paolo!
