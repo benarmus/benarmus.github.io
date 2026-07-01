@@ -2,6 +2,16 @@
 layout: default
 ---
 <div class="post">
+  {% if page.banner %}
+    {% assign banner_path = page.banner | prepend: 'assets/img/' %}
+    <div class="banner mb-4">
+      {%
+        include figure.liquid loading="eager" path=banner_path class="img-fluid rounded z-depth-1 w-100"
+        alt=page.banner_alt cache_bust=true
+      %}
+    </div>
+  {% endif %}
+
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
