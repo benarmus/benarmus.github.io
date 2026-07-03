@@ -7,7 +7,7 @@ subtitle: History PhD Student at <a href="https://liberalarts.utexas.edu/history
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: False # crops the image to make it circular
+  image_circular: True # crops the image to make it circular
   more_info: >
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
