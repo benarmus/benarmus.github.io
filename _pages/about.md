@@ -4,9 +4,6 @@ title: about
 permalink: /
 subtitle: History PhD Student at <a href="https://liberalarts.utexas.edu/history/">The University of Texas at Austin</a>
 
-banner: banner.jpg # header/banner image at the top of the homepage
-banner_alt: "Descriptive alt text for the banner image"
-
 profile:
   align: right
   image: prof_pic.jpg
