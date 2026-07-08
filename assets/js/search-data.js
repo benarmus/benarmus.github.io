@@ -30,7 +30,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-epistemic-authority-in-history",
+        
+          title: 'Epistemic Authority in History <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "A Brief Introduction to a Useful Concept",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://thequodlibet.substack.com/p/epistemic-authority-in-history", "_blank");
+          
+        },
+      },{id: "post-universities-welcome-to-the-iron-cage",
+        
+          title: 'Universities, Welcome to the Iron Cage <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "The Case Against the Administrative Hydra",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://thequodlibet.substack.com/p/universities-welcome-to-the-iron", "_blank");
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
