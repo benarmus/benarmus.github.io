@@ -126,9 +126,10 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
+# NOTE: Substack is behind Cloudflare, which 403s the CI build server, so
+# build-time RSS import does not work. Posts are generated locally instead via
+# `python3 bin/update_blog.py`. Leave external_sources empty.
 external_sources:
-  - name: Quodlibet
-    rss_url: https://thequodlibet.substack.com/feed
 
 # -----------------------------------------------------------------------------
 # Newsletter
