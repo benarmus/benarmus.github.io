@@ -25,6 +25,7 @@ import sys
 FEED_URL = "https://thequodlibet.substack.com/feed"
 SOURCE_NAME = "Quodlibet"
 POSTS_DIR = "_posts"
+NS = {"content": "http://purl.org/rss/1.0/modules/content/"}
 
 
 def clean(text):
@@ -54,6 +55,9 @@ def main():
         desc = clean(it.findtext("description"))
         if len(desc) > 300:
             desc = desc[:297].rstrip() + "..."
+        # Full article text (plain) drives the al-folio read-time estimate,
+        # which is computed from feed_content. It is never rendered on the page.
+        full_text = clean(it.findtext("content:encoded", namespaces=NS)) or desc
         slug = re.sub(r"[^a-z0-9-]", "", link.rstrip("/").split("/")[-1].lower())
         fname = f"{dt.strftime('%Y-%m-%d')}-{slug}.md"
         content = (
@@ -64,7 +68,7 @@ def main():
             f"description: {json.dumps(desc)}\n"
             f"redirect: {link}\n"
             f"external_source: {SOURCE_NAME}\n"
-            f"feed_content: {json.dumps(desc)}\n"
+            f"feed_content: {json.dumps(full_text)}\n"
             "---\n\n"
             f"{desc}\n\n"
             f"[Read the full post on Substack →]({link})\n"
