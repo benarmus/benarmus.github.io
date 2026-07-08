@@ -23,12 +23,22 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
+      # Send a browser-like User-Agent: some hosts (e.g. Substack/Cloudflare)
+      # return a bot-challenge HTML page to default HTTP clients, which
+      # Feedjira then rejects with "No valid parser for XML".
+      headers = {
+        'User-Agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ' \
+          'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+        'Accept' => 'application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8'
+      }
+      response = HTTParty.get(src['rss_url'], headers: headers, follow_redirects: true)
+      xml = response.body
       return if xml.nil?
       begin
         feed = Feedjira.parse(xml)
       rescue StandardError => e
-        puts "Error parsing RSS feed from #{src['rss_url']} - #{e.message}"
+        puts "Error parsing RSS feed from #{src['rss_url']} (HTTP #{response.code}) - #{e.message}"
+        puts "First 200 chars received: #{xml[0, 200].inspect}"
         return
       end
       process_entries(site, src, feed.entries)
