@@ -1,0 +1,51 @@
+name: Update blog from Substack
+
+on:
+  schedule:
+    - cron: "43 10 * * *" # daily at 10:43 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  update-blog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Regenerate posts from the Substack feed
+        run: python3 bin/update_blog.py
+
+      - name: Commit and push if changed
+        id: push
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add _posts
+          if git diff --staged --quiet; then
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            echo "ℹ️ No new or changed posts." >> "$GITHUB_STEP_SUMMARY"
+          else
+            git commit -m "Update blog from Substack"
+            git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+            echo "✅ Posts updated:" >> "$GITHUB_STEP_SUMMARY"
+            git show --stat --format=oneline HEAD >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      # Pushes made with GITHUB_TOKEN don't fire deploy.yml's push trigger,
+      # so dispatch the deploy explicitly (workflow_dispatch is exempt).
+      - name: Trigger site deploy
+        if: steps.push.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
