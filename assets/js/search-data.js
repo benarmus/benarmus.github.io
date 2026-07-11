@@ -38,7 +38,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://thequodlibet.substack.com/p/epistemic-authority-in-history", "_blank");
+            window.open("https://probabilitasblog.substack.com/p/epistemic-authority-in-history", "_blank");
           
         },
       },{id: "post-universities-welcome-to-the-iron-cage",
@@ -49,7 +49,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://thequodlibet.substack.com/p/universities-welcome-to-the-iron", "_blank");
+            window.open("https://probabilitasblog.substack.com/p/universities-welcome-to-the-iron", "_blank");
           
         },
       },{id: "books-the-godfather",
@@ -93,7 +93,7 @@ ninja.data = [{
         title: 'Substack',
         section: 'Socials',
         handler: () => {
-          window.open("https://substack.com/@thequodlibet", "_blank");
+          window.open("https://probabilitasblog.substack.com", "_blank");
         },
       },{
         id: 'social-goodreads',
