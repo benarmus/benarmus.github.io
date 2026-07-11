@@ -24,9 +24,9 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 import sys
 
-FEED_URL = "https://invisiblecolleges.substack.com/feed"
+FEED_URL = "https://benarmus.substack.com/feed"
 MIRROR_URL = "https://api.rss2json.com/v1/api.json?rss_url=" + urllib.parse.quote(FEED_URL, safe="")
-SOURCE_NAME = "Invisible Colleges"
+SOURCE_NAME = "Probabilitas"
 POSTS_DIR = "_posts"
 NS = {"content": "http://purl.org/rss/1.0/modules/content/"}
 
