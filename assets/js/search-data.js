@@ -38,7 +38,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://invisiblecolleges.substack.com/p/epistemic-authority-in-history", "_blank");
+            window.open("https://benarmus.substack.com/p/epistemic-authority-in-history", "_blank");
           
         },
       },{id: "post-universities-welcome-to-the-iron-cage",
@@ -49,7 +49,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://invisiblecolleges.substack.com/p/universities-welcome-to-the-iron", "_blank");
+            window.open("https://benarmus.substack.com/p/universities-welcome-to-the-iron", "_blank");
           
         },
       },{id: "books-the-godfather",
@@ -93,7 +93,7 @@ ninja.data = [{
         title: 'Substack',
         section: 'Socials',
         handler: () => {
-          window.open("https://invisiblecolleges.substack.com", "_blank");
+          window.open("https://benarmus.substack.com", "_blank");
         },
       },{
         id: 'social-goodreads',
