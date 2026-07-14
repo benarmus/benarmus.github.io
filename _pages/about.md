@@ -11,7 +11,7 @@ profile:
   more_info: >
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -24,8 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Ben. I study early modern England, with interests in intellectual history, institutional history, and the history of science. My research centers on epistemology: how early modern people decided what counted as knowledge, who was authorized to produce it, and through which procedures truth was adjudicated.
+Hi! I'm Ben. I study early modern England, and I'm particularly interested in intellectual history, institutional history, and the history of science. My research focuses on knowledge production: how early modern people decided what counted as knowledge, who was authorized to produce it, and how they organized around it. 
 
-My past writing examines the decline of the academic disputation at Oxford and Cambridge in early modern England. I argue that the disputation gradually lost its pedagogical and epistemic authority as it was instrumentalized by the state and religious reformers, and attacked by intellectuals. 
+My [recent writing](https://scholarworks.wm.edu/entities/publication/bacf85f8-eeff-4984-b62f-413aaefdc305) examines the decline of the academic disputation at Oxford and Cambridge in early modern England. I argue that the disputation gradually lost its pedagogical and epistemic authority as it was instrumentalized by the state and religious reformers, and attacked by intellectuals. 
 
-My favorite painting is [The Creation of the World and the Expulsion from Paradise](https://www.metmuseum.org/art/collection/search/458971) by Giovanni di Paolo!
+This website contains my sporadically updated substack [Probabilitas,](benarmus.substack.com) my [email,](mailto:benarmus@utexas.edu) my [CV](Armus_CV.pdf) and even [my favorite painting](https://www.metmuseum.org/art/collection/search/458971). 

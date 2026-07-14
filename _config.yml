@@ -5,8 +5,7 @@
 title: Benjamin Armus # the website title (if blank, full name will be used instead)
 first_name: Ben
 last_name: Armus
-contact_note: >
-  Please contact me via email.
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   History PhD Student at the University of Texas at Austin
 footer_text: >
