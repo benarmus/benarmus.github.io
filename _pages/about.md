@@ -28,4 +28,4 @@ Hi! I'm Ben. I study early modern England, and I'm particularly interested in in
 
 My [recent writing](https://scholarworks.wm.edu/entities/publication/bacf85f8-eeff-4984-b62f-413aaefdc305) examines the decline of the academic disputation at Oxford and Cambridge in early modern England. I argue that the disputation gradually lost its pedagogical and epistemic authority as it was instrumentalized by the state and religious reformers, and attacked by intellectuals. 
 
-This website contains my sporadically updated substack [Probabilitas,](benarmus.substack.com) my [email,](mailto:benarmus@utexas.edu) my [CV](Armus_CV.pdf) and even [my favorite painting](https://www.metmuseum.org/art/collection/search/458971). 
+This website contains my sporadically updated substack [Probabilitas,](https://benarmus.substack.com) my [email,](mailto:benarmus@utexas.edu) my [CV](/assets/pdf/Armus_CV.pdf) and even [my favorite painting](https://www.metmuseum.org/art/collection/search/458971). 
