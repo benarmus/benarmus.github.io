@@ -63,10 +63,10 @@ table {
 
 a,
 table.table a {
-  color: var(--global-theme-color);
+  color: var(--global-link-color);
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-link-color);
     text-decoration: underline;
   }
 
