@@ -3,6 +3,7 @@ name: Update blog from Substack
 on:
   schedule:
     - cron: "43 10 * * *" # daily at 10:43 UTC
+    - cron: "43 22 * * *" # second attempt at 22:43 UTC in case the morning run failed
   workflow_dispatch:
 
 permissions:

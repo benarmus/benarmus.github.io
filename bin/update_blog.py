@@ -17,6 +17,7 @@ import os
 import re
 import json
 import html
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -25,7 +26,8 @@ from email.utils import parsedate_to_datetime
 import sys
 
 FEED_URL = "https://benarmus.substack.com/feed"
-MIRROR_URL = "https://api.rss2json.com/v1/api.json?rss_url=" + urllib.parse.quote(FEED_URL, safe="")
+RSS2JSON_URL = "https://api.rss2json.com/v1/api.json?rss_url=" + urllib.parse.quote(FEED_URL, safe="")
+ALLORIGINS_URL = "https://api.allorigins.win/raw?url=" + urllib.parse.quote(FEED_URL, safe="")
 SOURCE_NAME = "Probabilitas"
 POSTS_DIR = "_posts"
 NS = {"content": "http://purl.org/rss/1.0/modules/content/"}
@@ -83,8 +85,25 @@ def load_items():
     try:
         return parse_direct(fetch(FEED_URL))
     except Exception as e:
-        print(f"Direct feed fetch failed ({e}); falling back to rss2json mirror")
-        return parse_mirror(fetch(MIRROR_URL))
+        print(f"Direct feed fetch failed ({e}); falling back to mirrors")
+    # Mirrors fetch the feed from their own servers, which Cloudflare lets
+    # through. Each can be flaky (rss2json 500s at times), so alternate
+    # between them with retries before giving up.
+    mirrors = [
+        ("rss2json", RSS2JSON_URL, parse_mirror),
+        ("allorigins", ALLORIGINS_URL, parse_direct),
+    ]
+    last_err = None
+    for attempt in range(1, 4):
+        if attempt > 1:
+            time.sleep(60)
+        for name, url, parse in mirrors:
+            try:
+                return parse(fetch(url))
+            except Exception as e:
+                last_err = e
+                print(f"{name} fetch failed (attempt {attempt}): {e}")
+    raise last_err
 
 
 def main():
