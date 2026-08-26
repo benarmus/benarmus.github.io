@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Ben. I study early modern England, and I'm particularly interested in intellectual history, institutional history, and the history of science. My research focuses on knowledge production: how early modern people decided what counted as knowledge, who was authorized to produce it, and how they organized around it. 
+Hi! I'm Ben. I study early modern England, and I'm particularly interested in the histories of ideas, religion, and science. My research focuses on knowledge production: how early modern people decided what counted as knowledge, who was authorized to produce it, and how they organized around it. 
 
 My [recent writing](https://scholarworks.wm.edu/entities/publication/bacf85f8-eeff-4984-b62f-413aaefdc305) examines the decline of the academic disputation at Oxford and Cambridge in early modern England. I argue that the disputation gradually lost its pedagogical and epistemic authority as it was instrumentalized by the state and religious reformers, and attacked by intellectuals. 
 
